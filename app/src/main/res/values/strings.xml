@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Find</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="locate">Locate</string>
+    <string name="register">Register</string>
+    <string name="find">Find</string>
+    <string name="member_list">Select Member</string>
+    <string name="hide_app">Hide App</string>
+    <string name="todo">TODO</string>
+
+
+</resources>

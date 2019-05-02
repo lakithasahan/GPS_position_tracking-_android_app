@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/custom_marker_view" android:layout_width="52dp" android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/user_dp" android:layout_width="30dp" android:layout_height="30dp" app:civ_border_color="#fff" android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal" android:layout_marginLeft="14dp" android:layout_marginTop="13dp" android:contentDescription="@null" android:src="@drawable/shape_circle" />
+
+    <RelativeLayout android:layout_width="60dp" android:layout_height="70dp" android:backgroundTint="#FF0B0B" android:background="@drawable/icons">
+    <TextView android:text="janet John" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:gravity="center" android:textSize="7sp" android:layout_marginLeft="10dp"
+        android:textColor="#000" android:alpha="0.8" android:background="@drawable/shape_circle"
+        android:id="@+id/name" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+</RelativeLayout> </RelativeLayout>
